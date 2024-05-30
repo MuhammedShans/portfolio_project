@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+}
+
+header .text-container {
+    text-align: center;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header .about-image {
+    position: absolute;
+    right: 2rem;
+}
+
+header .about-image img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+}
+
+.project, .education, .certificate {
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: #4CAF50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    height: 50px; /* Reduced height */
+    text-align: center;
+    line-height: 30px; /* Center content vertically */
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content p span {
+    margin-right: 10px;
+}
+
+.card-image {
+    object-fit: fill;
+}
+
+.carousel-item > img {
+    height: 400px;
+}
